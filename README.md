@@ -2,6 +2,7 @@
 This is my review of JavaScript.
 
 ## Examples of Data Types
+
 ```javascript 
     let name = 'Alpha Martinez';
     let age = 32;
@@ -41,8 +42,9 @@ console.log(container);
 
 const headerTwo = document.createElement('h2');
 headerTwo.textContent = 'My first JS Review';
+```
 
-###More DOM Manipulation
+### More DOM Manipulation
 
 ```javascript
 
