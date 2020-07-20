@@ -26,14 +26,14 @@ console.log(newPlace.touristAttraction.museum);
 
 newPlace.print();
 
-function printFunction(array){
-    array.forEach(friend => {
-        console.log(friend);
-    })
-}
+// function printFunction(array){
+//     array.forEach(friend => {
+//         console.log(friend);
+//     })
+// }
 
-printFunction(friends);
-printFunction(newPlace.foundingMembers);
+// printFunction(friends);
+// printFunction(newPlace.foundingMembers);
 
 
 //standard function
@@ -46,3 +46,24 @@ function addNumber(num1, num2){
 const subtractNumbers = (num1, num2) => {
     return num1 - num2
 }
+
+//DOM
+
+const container = document.querySelector('.container');
+console.log(container);
+
+//create an element
+const headerTwo = document.createElement('h2');
+headerTwo.textContent = 'My first JS Review';
+console.log(headerTwo);
+
+container.appendChild(headerTwo);
+
+//add a class to headerTwo
+headerTwo.classList.add('subtitle');
+//headerTwo.setAttribute('class', 'header-two');
+
+headerTwo.classList.remove('header-two');
+console.log(headerTwo);
+
+

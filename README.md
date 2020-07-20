@@ -34,5 +34,12 @@ const subtractNumbers = (num1, num2) => {
     return num1 - num2
 }
 
-```
+//DOM
+
+const container = document.querySelector('.container');
+console.log(container);
+
+const headerTwo = document.createElement('h2');
+headerTwo.textContent = 'My first JS Review';
+
 
