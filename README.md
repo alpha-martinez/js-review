@@ -42,4 +42,27 @@ console.log(container);
 const headerTwo = document.createElement('h2');
 headerTwo.textContent = 'My first JS Review';
 
+###More DOM Manipulation
+
+```javascript
+
+const list = document.createElement('ul');
+
+ for (let i = 0; i < friends.length; i++){
+     let eachFriend = friends[i];
+     console.log(eachFriend);
+
+     const listItem = document.createElement('li');
+     listItem.textContent = eachFriend;
+
+     list.appendChild(listItem);
+ }
+
+ console.log(list);
+
+ headerThree.addEventListener('click', function (){
+     container.appendChild(list);
+ });
+
+ ```
 
