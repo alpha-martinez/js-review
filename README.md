@@ -2,7 +2,7 @@
 This is my review of JavaScript.
 
 ## Examples of Data Types
-``` 
+```javascript 
     let name = 'Alpha Martinez';
     let age = 32;
     let isCool = true;
@@ -20,6 +20,18 @@ This is my review of JavaScript.
     print: function(){
         console.log('The founder of Boston is ' + this.foundingMember);
     }
+}
+
+
+//standard function
+function addNumber(num1, num2){
+    return num1 +  num2
+}
+
+
+//arrow function
+const subtractNumbers = (num1, num2) => {
+    return num1 - num2
 }
 
 ```
