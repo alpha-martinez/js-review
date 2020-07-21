@@ -2,12 +2,13 @@
 
 ## CSS Examples
 
-1. To add color to your text, you just do 
+1. To add color to your text and center your text, you just do 
 
 ```CSS 
     body{
-        color: blue;
-    }
+    color: blue;
+    text-align: center; 
+       }
  ```
 
 
