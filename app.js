@@ -282,8 +282,8 @@ function wordYeller(sentence) {
             newLoudSentenceArray.push(loudWord) 
         }
     })
-    let newLoundSentence = newLoudSentenceArray.join(" ")
-    return newLoundSentence;
+    let newArraySentence = newLoudSentenceArray.join(" ")
+    return newArraySentence;
 }
 
 console.log(wordYeller('hey how are you doing today?'))
@@ -332,24 +332,24 @@ console.log(arraySubstring(['anna', 'Hello', 'With'], 'an'));
 
 
 const evenCaps = (sentence) => {
-   //set new variable for new way of it coming out
-    let otherWord = [];
-    //split your sentence
-    let newSentence = sentence.split("");
-
-    for(let i=0; i<newSentence.length; i++){
-        if (i % 2 !== 0){
-            otherWord.push(newSentence[i].toUpperCase())
-        } else {
-            otherWord.push(newSentence[i])
-        }
-
-    }
-    //your return results here
-    return otherWord.join("");
-}
-
-console.log(evenCaps('Hey there!'));
+    //set new variable for new way of it coming out
+     let otherWord = [];
+     //split your sentence
+     let newSentence = sentence.split("");
+ 
+     for(let i=0; i<newSentence.length; i++){
+         if (i % 2 !== 0){
+             otherWord.push(newSentence[i].toUpperCase())
+         } else {
+             otherWord.push(newSentence[i])
+         }
+ 
+     }
+     //your return results here
+     return otherWord.join("");
+ }
+ 
+ console.log(evenCaps('Hey there!'));
 
 
 
